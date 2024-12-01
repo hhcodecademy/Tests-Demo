@@ -1,0 +1,10 @@
+@DemoApp.UI_HostAddress = https://localhost:7022
+
+GET {{DemoApp.UI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{DemoApp.UI_HostAddress}}/api/students/A10000
+
+###
